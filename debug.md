@@ -2,7 +2,7 @@
 ```bash
 export TARGET_ID=bfeae8de0877
 # 加入目标容器的 network, pid 以及 ipc namespace
-docker run -it --network=container:$TARGET_ID --pid=container:$TARGET_ID --ipc=container:$TARGET_ID tcr.99billhub.com/nicolaka/netshoot
+docker run -it --network=container:$TARGET_ID --pid=container:$TARGET_ID --ipc=container:$TARGET_ID dockerhub.azk8s.cn/nicolaka/netshoot
 ```
 
 ### kubectl-debug
